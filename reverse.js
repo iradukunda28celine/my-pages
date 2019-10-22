@@ -11,5 +11,5 @@ function reverseString(str) {
 document.getElementById('reverse').addEventListener('click', () => {
     const string = document.getElementById('string').value;
     console.log(string)
-    document.getElementById('result').innerHTML = reverseString(string);
+    document.getElementById('result').textContent = reverseString(string);
 })
