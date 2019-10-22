@@ -1,1 +1,1 @@
-https://github.com/iradukunda28celine/my-pages/tree/gh-pages
+https://iradukunda28celine.github.io/my-pages/
