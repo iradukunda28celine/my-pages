@@ -1,6 +1,4 @@
 
-let string = reverseString('');
-console.log(string);
 function reverseString(str) {
     let revstr = '';
     for (let i = str.length - 1; i >= 0; i--) {
@@ -9,4 +7,9 @@ function reverseString(str) {
     return revstr;
 }
 
-console.log(reverseString('boooootee'));
+
+document.getElementById('reverse').addEventListener('click', () => {
+    const string = document.getElementById('string').value;
+    console.log(string)
+    document.getElementById('result').innerHTML = reverseString(string);
+})

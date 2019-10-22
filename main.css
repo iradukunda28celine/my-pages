@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	background-image:linear-gradient(to right, #0000007c, #00000050), url("images/rwa1.jpg");
+	background-repeat:no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* 
+.container{
+	width: 80%; 
+	margin: auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+} */
+
+.container{
+	padding: 12px 20px;
+	background:#35424acc;
+	color: #ffffff;
+	margin: 8px 0;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	width: 30%;
+	margin-left: auto;
+	margin-right: auto;
+
+
+}
